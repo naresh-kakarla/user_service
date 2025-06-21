@@ -1,0 +1,54 @@
+[
+    {
+        "model": "accounts.useraccount",
+        "pk": "testuser1",
+        "fields": {
+            "email": "testuser1@example.com",
+            "password": "Password123!",
+            "first_name": "Test",
+            "last_name": "User1",
+            "phone_number": "1000000001",
+            "is_active": true,
+            "is_staff": false
+        }
+    },
+    {
+        "model": "accounts.useraccount",
+        "pk": "testuser2",
+        "fields": {
+            "email": "testuser2@example.com",
+            "password": "Password123!",
+            "first_name": "Test",
+            "last_name": "User2",
+            "phone_number": "1000000002",
+            "is_active": true,
+            "is_staff": false
+        }
+    },
+    {
+        "model": "accounts.useraccount",
+        "pk": "testuser3",
+        "fields": {
+            "email": "testuser3@example.com",
+            "password": "Password123!",
+            "first_name": "Test",
+            "last_name": "User3",
+            "phone_number": "1000000003",
+            "is_active": true,
+            "is_staff": false
+        }
+    },
+    {
+        "model": "accounts.useraccount",
+        "pk": "testuser4",
+        "fields": {
+            "email": "testuser4@example.com",
+            "password": "Password123!",
+            "first_name": "Test",
+            "last_name": "User4",
+            "phone_number": "1000000004",
+            "is_active": true,
+            "is_staff": false
+        }
+    }
+]

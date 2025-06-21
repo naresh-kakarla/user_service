@@ -1,12 +1,13 @@
-
 from enum import Enum
+
 
 class Status(str, Enum):
     SUCCESS = "SUCCESS"
-    FAILURE = "FAILURE"
+    FAILURE = "ERROR"
     BAD_REQUEST = "BAD_REQUEST"
     UNAUTHORIZED = "UNAUTHORIZED"
     NOT_FOUND = "NOT_FOUND"
+
 
 # Error Messages
 ERROR_MESSAGES = {

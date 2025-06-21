@@ -1,0 +1,18 @@
+[run]
+branch = True
+# source = accounts
+
+[report]
+omit =
+    */tests/*
+    */migrations/*
+    */__init__.py
+    */settings.py
+    */wsgi.py
+    */asgi.py
+
+[html]
+directory = coverage_html_report
+
+[xml]
+output = coverage.xml
