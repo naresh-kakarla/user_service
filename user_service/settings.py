@@ -126,3 +126,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 AUTH_USER_MODEL = "accounts.UserAccount"
+
+JWT_TOKEN = {
+    "SECRET_KEY": "98612gh897-c7ty6-4001-acdfe-81706f059671-jonk98jk",
+    "ALG": "HS256",
+    "ACCESS_TOKEN_LIFETIME": 15,
+    "REFRESH_TOKEN_LIFETIME": 60
+}
